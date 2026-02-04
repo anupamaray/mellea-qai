@@ -44,6 +44,36 @@ with structured, maintainable, robust, and efficient AI workflows.
 
 You can get started with a local install, or by using Colab notebooks.
 
+### Quick Start with Demo Files
+
+If you are cloning this repository to try the **Mellea Complete Tutorial**, follow these steps:
+
+1.  **Install dependencies**:
+    ```bash
+    uv pip install "mellea[all]"
+    ```
+    *(Note: `[all]` includes `docling` for document processing and `mcp` for the Agent/MCP demos)*
+
+2.  **Run the Complete Tutorial Notebook**:
+    This notebook covers everything from basic prompting to Mify objects and debugging.
+    ```bash
+    uv run jupyter notebook mellea_complete_tutorial.ipynb
+    ```
+
+3.  **Run the Agent Demo (ReACT)**:
+    A standalone reasoning agent example.
+    ```bash
+    uv run python demo_agent.py
+    ```
+
+4.  **Run the MCP Demo**:
+    Expose Mellea tools to an MCP Inspector (requires Node.js installed).
+    ```bash
+    uv run mcp dev demo_mcp.py
+    ```
+
+
+
 ### Getting Started with Local Inference
 
 <img src="https://github.com/generative-computing/mellea/raw/main/docs/GetStarted_py.png" style="max-width:800px">
