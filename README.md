@@ -19,26 +19,6 @@ with structured, maintainable, robust, and efficient AI workflows.
 [![Discord](https://img.shields.io/discord/1448407063813165219?logo=discord&logoColor=white&label=Discord&color=7289DA)](https://ibm.biz/mellea-discord)
 
 
-## Features
-
- * A standard library of opinionated prompting patterns.
- * Sampling strategies for inference-time scaling.
- * Clean integration between verifiers and samplers.
-    - Batteries-included library of verifiers.
-    - Support for efficient checking of specialized requirements using
-      activated LoRAs.
-    - Train your own verifiers on proprietary classifier data.
- * Compatible with many inference services and model families. Control cost
-   and quality by easily lifting and shifting workloads between:
-        - inference providers
-        - model families
-        - model sizes
- * Easily integrate the power of LLMs into legacy code-bases (mify).
- * Sketch applications by writing specifications and letting `mellea` fill in
-   the details (generative slots).
- * Get started by decomposing your large unwieldy prompts into structured and maintainable mellea problems.
-
-
 
 ## Getting Started
 
@@ -72,6 +52,24 @@ If you are cloning this repository to try the **Mellea Complete Tutorial**, foll
     uv run mcp dev demo_mcp.py
     ```
 
+## Features
+
+ * A standard library of opinionated prompting patterns.
+ * Sampling strategies for inference-time scaling.
+ * Clean integration between verifiers and samplers.
+    - Batteries-included library of verifiers.
+    - Support for efficient checking of specialized requirements using
+      activated LoRAs.
+    - Train your own verifiers on proprietary classifier data.
+ * Compatible with many inference services and model families. Control cost
+   and quality by easily lifting and shifting workloads between:
+        - inference providers
+        - model families
+        - model sizes
+ * Easily integrate the power of LLMs into legacy code-bases (mify).
+ * Sketch applications by writing specifications and letting `mellea` fill in
+   the details (generative slots).
+ * Get started by decomposing your large unwieldy prompts into structured and maintainable mellea problems.
 
 
 ### Getting Started with Local Inference
